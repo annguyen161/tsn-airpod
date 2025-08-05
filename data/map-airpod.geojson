@@ -1,0 +1,5843 @@
+{
+  "type": "FeatureCollection",
+  "name": "Airpod",
+  "xy_coordinate_resolution": 1e-15,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "35E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [62.974018743912637, 120663.327114589803386],
+              [62.974018735530741, 102428.451672289695125],
+              [14367.402268261370409, 102428.451672281706124],
+              [14419.902268261370409, 8.155450449592379],
+              [410362.402268261299469, 11.91792915126082],
+              [410088.402268261299469, 126361.834571819097619],
+              [35.402268261368341, 126271.834571819097619],
+              [62.974018743912637, 120663.327114589803386]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "35F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5244.46867993725391, 108706.031742586797918],
+              [262.262274935652101, 108706.031742586797918],
+              [262.262274935652101, 102627.739928489099839],
+              [5244.46867993725391, 102627.739928489099839],
+              [5244.46867993725391, 108706.031742586797918]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbBlockReference",
+        "Linetype": null,
+        "EntityHandle": "360",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [262.262274935659661, 102627.739928489099839],
+              [29956.212448745678557, 102627.739928489099839],
+              [29956.212448745678557, 120451.092061837713118],
+              [262.262274935659661, 120451.092061837713118],
+              [262.262274935659661, 102627.739928489099839]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "361",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [29956.21244874309923, 119075.216834516395465],
+              [43282.957609445518756, 119075.216834516395465],
+              [43282.957609445518756, 102148.107523769300315],
+              [29956.21244874309923, 102148.107523769300315],
+              [29956.21244874309923, 119075.216834516395465]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "362",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [43282.957609445518756, 102148.107523769300315],
+              [36711.902268261372228, 102148.107523769300315],
+              [36711.902268261372228, 112380.155450449601631],
+              [43282.957609445518756, 112380.155450449601631],
+              [43282.957609445518756, 102148.107523769300315]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "363",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [33017.702486592766945, 115121.500648769404506],
+              [36123.902268261357676, 115121.500648769404506],
+              [36123.902268261357676, 106689.655450449601631],
+              [33017.702486592766945, 106689.655450449601631],
+              [33017.702486592766945, 115121.500648769404506]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "364",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [43282.957609445518756, 119075.216834516395465],
+              [99992.685649539213046, 119105.29338743739936],
+              [100001.207042071604519, 107216.155450449601631],
+              [77587.607260438046069, 107234.744848769405507],
+              [77654.308510438029771, 73900.128148769726977],
+              [15765.64101862905045, 74104.655450449587079],
+              [16168.817288735219336, 101314.347488556304597],
+              [43289.902268261357676, 101295.155450449601631],
+              [43282.957609445518756, 119075.216834516395465]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbBlockReference",
+        "Linetype": null,
+        "EntityHandle": "365",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [267.674450766950031, 118736.926971256893012],
+              [5471.017706046939566, 118736.926971256893012],
+              [5471.017706046939566, 112867.216971256610123],
+              [267.674450766950031, 112867.216971256610123],
+              [267.674450766950031, 118736.926971256893012]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbBlockReference",
+        "Linetype": null,
+        "EntityHandle": "366",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [262.262274943786906, 120336.309733232003055],
+              [5974.024684216197784, 120336.309733232003055],
+              [5974.024684216197784, 118888.892608232315979],
+              [262.262274943786906, 118888.892608232315979],
+              [262.262274943786906, 120336.309733232003055]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KVLTTHANGKHONG",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "367",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [15765.64101862905045, 74104.655450449587079],
+              [161537.574807593395235, 74150.345868269709172],
+              [161537.574807593395235, 71538.850269042392028],
+              [178265.402825005992781, 71538.850269009752083],
+              [178406.376895880006487, 13720.514798457070356],
+              [76863.63583705201745, 13598.672693381909994],
+              [76863.553641342019546, 8599.550769039289662],
+              [15698.939768629059472, 8599.550769038751241],
+              [15765.64101862905045, 74104.655450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QV VNA DG31",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "368",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [69760.220697919692611, 21706.346394042080647],
+              [76863.63583705201745, 21706.346394042080647],
+              [76863.553641342019546, 12868.430769038970539],
+              [69726.870072919686208, 12968.48264404208021],
+              [69760.220697919692611, 21706.346394042080647]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE 1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "369",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [15899.04351862843032, 8599.550769042069078],
+              [23302.800072919679224, 8599.550769042069078],
+              [23302.800072919679224, 13535.44326904215086],
+              [15899.04351862843032, 13535.44326904215086],
+              [15899.04351862843032, 8599.550769042069078]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE 2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23302.800072919679224, 13535.44326904215086],
+              [33308.069768629051396, 13535.44326904215086],
+              [33308.069768629051396, 8599.54517925518121],
+              [23302.800072919679224, 8599.54517925518121],
+              [23302.800072919679224, 13535.44326904215086]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KLTHUTUC",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [37977.157268628747261, 70498.305179253016831],
+              [48649.357268629377359, 70498.305179253016831],
+              [48649.357268629377359, 25341.558929255181283],
+              [37977.157268628747261, 25341.558929255181283],
+              [37977.157268628747261, 70498.305179253016831]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [15765.64101862905045, 74104.655450449587079],
+              [33541.441947919061931, 74104.655450449587079],
+              [33541.441947919061931, 66329.482644042087486],
+              [15765.64101862905045, 66329.482644042087486],
+              [15765.64101862905045, 74104.655450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KT1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [53185.04226862903306, 70565.006429255125113],
+              [60391.250158848582942, 70565.006429255125113],
+              [60391.250158848582942, 66594.206427097524283],
+              [53185.04226862903306, 66594.206427097524283],
+              [53185.04226862903306, 70565.006429255125113]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [77230.015379524789751, 71538.844679218105739],
+              [82887.957711643626681, 71538.844679218018427],
+              [82894.402268261372228, 59895.655450449601631],
+              [63339.166592245732318, 59759.403929255196999],
+              [63339.166592245732318, 66429.528929229156347],
+              [77230.015379524498712, 66562.931429252043017],
+              [77230.015379524789751, 71538.844679218105739]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "36F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63339.166592245732318, 59759.403929255196999],
+              [73195.417268628472812, 59759.403929255196999],
+              [73195.417268628472812, 55551.299379712596419],
+              [63339.166592245732318, 55551.299379712596419],
+              [63339.166592245732318, 59759.403929255196999]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "370",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63323.632268628418387, 55151.091879712606897],
+              [68192.823518628472812, 55151.091879712606897],
+              [68192.823518628472812, 52085.802606782599469],
+              [63323.632268628418387, 52085.802606782599469],
+              [63323.632268628418387, 55151.091879712606897]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "371",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [94903.919045022805221, 67290.275050326745259],
+              [99126.108170022824197, 67290.275050326745259],
+              [99126.108170022824197, 74130.783762497245334],
+              [94903.919045022805221, 74130.783762497245334],
+              [94903.919045022805221, 67290.275050326745259]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "372",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [104902.877457593393046, 71538.844679255475057],
+              [109411.881957593403058, 71538.844679255475057],
+              [109411.881957593403058, 67363.346429255529074],
+              [104902.877457593393046, 67363.346429255529074],
+              [104902.877457593393046, 71538.844679255475057]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "373",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [113373.936207593404106, 71538.844679255475057],
+              [120921.219316793401958, 71538.844679255475057],
+              [120921.219316793401958, 67630.151429255492985],
+              [113373.936207593404106, 67630.151429255492985],
+              [113373.936207593404106, 71538.844679255475057]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KT2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "374",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [121054.621816793296603, 71538.844679255475057],
+              [124843.252816793596139, 71538.844679255475057],
+              [124843.252816793596139, 67630.151429255492985],
+              [121054.621816793296603, 67630.151429255492985],
+              [121054.621816793296603, 71538.844679255475057]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KHO1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "375",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [126779.553432593398611, 71538.844679255475057],
+              [130834.989432593400124, 71538.844679255475057],
+              [130834.989432593400124, 69210.971054255176568],
+              [126779.553432593398611, 69210.971054255176568],
+              [126779.553432593398611, 71538.844679255475057]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "376",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [126759.079306744606583, 69077.568554255165509],
+              [132628.789306744496571, 69077.568554255165509],
+              [132628.789306744496571, 67630.151429255492985],
+              [126759.079306744606583, 67630.151429255492985],
+              [126759.079306744606583, 69077.568554255165509]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KLTHUTUC2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "377",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [108788.429798196506454, 66194.657536664628424],
+              [115347.982700475797174, 66194.657536664628424],
+              [115347.982700475797174, 39358.097699371421186],
+              [108788.429798196506454, 39358.097699371421186],
+              [108788.429798196506454, 66194.657536664628424]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KLTHUTUC3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "378",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [131518.822080744401319, 66197.425773253227817],
+              [138078.374983023706591, 66197.425773253227817],
+              [138078.374983023706591, 39347.525685959997645],
+              [131518.822080744401319, 39347.525685959997645],
+              [131518.822080744401319, 66197.425773253227817]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KLTHUTUC4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "379",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [156681.723807593312813, 67224.326836724561872],
+              [163270.625259872700553, 67224.326836724561872],
+              [163270.625259872700553, 39347.525685959692055],
+              [156681.723807593312813, 39347.525685959692055],
+              [156681.723807593312813, 67224.326836724561872]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "JESTAR PACIFIC",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [136611.31768259339151, 73086.313679255137686],
+              [147803.787432593089761, 73086.313679255137686],
+              [147803.787432593089761, 67496.748929255496478],
+              [136611.31768259339151, 67496.748929255496478],
+              [136611.31768259339151, 73086.313679255137686]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KT3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [147937.189932593406411, 73086.313679255341412],
+              [155701.215432593686273, 73086.313679255341412],
+              [155701.215432593686273, 67496.748929255496478],
+              [147937.189932593406411, 67496.748929255496478],
+              [147937.189932593406411, 73086.313679255341412]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [156803.803798603796167, 19389.439851448019908],
+              [161680.283339760091621, 19389.439851448019908],
+              [161680.283339760091621, 14712.866306246809472],
+              [156803.803798603796167, 14712.866306246809472],
+              [156803.803798603796167, 19389.439851448019908]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QV VNA DG34",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [161680.283339760091621, 19389.439851448019908],
+              [166802.939339760108851, 19389.439851448019908],
+              [166802.939339760108851, 14712.866306246809472],
+              [161680.283339760091621, 14712.866306246809472],
+              [161680.283339760091621, 19389.439851448019908]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [167176.548535439011175, 19339.755437958039693],
+              [177982.151035453309305, 19339.755437958039693],
+              [177982.151035453309305, 14712.860716263299764],
+              [167176.548535439011175, 14712.860716263299764],
+              [167176.548535439011175, 19339.755437958039693]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "BUUDIENDG36",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "37F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172595.796575304993894, 34229.823971125013486],
+              [178096.492112718202407, 34229.823971125013486],
+              [178096.492112718202407, 29796.814780135908222],
+              [172595.796575304993894, 29796.814780135908222],
+              [172595.796575304993894, 34229.823971125013486]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "380",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172595.79657528779353, 43141.650527624493407],
+              [178198.70157621751423, 43141.650527624493407],
+              [178198.70157621751423, 34329.875845929942443],
+              [172595.79657528779353, 34329.875845929942443],
+              [172595.79657528779353, 43141.650527624493407]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "CAPCUU",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "381",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172795.900325039809104, 51473.236646988130815],
+              [178328.291262034588726, 51473.236646988130815],
+              [178328.291262034588726, 43275.053027624489914],
+              [172795.900325039809104, 43275.053027624489914],
+              [172795.900325039809104, 51473.236646988130815]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "382",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172795.900325039809104, 64013.071646988129942],
+              [178313.676761417213129, 64013.071646988129942],
+              [178313.676761417213129, 51740.041646987192507],
+              [172795.900325039809104, 51740.041646987192507],
+              [172795.900325039809104, 64013.071646988129942]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "BUUDIENDG36",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "383",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [100001.207042071604519, 119101.897334516703268],
+              [100001.207042071604519, 107216.155450449601631],
+              [77584.556294621885172, 107230.62026199149841],
+              [77654.308510438029771, 74124.053691266803071],
+              [161537.574807593395235, 74150.345868269709172],
+              [161537.574807593395235, 71538.850269042392028],
+              [178265.402825005992781, 71538.850269009752083],
+              [100001.207042071604519, 119101.897334516703268]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "NHAHANG1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "384",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [216423.536213837302057, 77937.636834968143376],
+              [216449.255336785397958, 29075.628819486260909],
+              [178465.42437958449591, 29112.063921874480002],
+              [178465.42437958449591, 77120.071364943811204],
+              [183868.30782494720188, 77120.071364935429301],
+              [183869.58972040261142, 77857.234797651704866],
+              [216423.581594899093034, 77851.420450056233676],
+              [216423.536213837302057, 77937.636834968143376]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "385",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178508.384637034585467, 64013.071646987489657],
+              [188253.160089653014438, 64013.071646987489657],
+              [188254.441985113400733, 45089.912637584908225],
+              [178508.302441325300606, 45086.46854472385894],
+              [178508.384637034585467, 64013.071646987489657]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "386",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178466.788470707106171, 44953.066044723862433],
+              [183669.485970909590833, 44953.066044723862433],
+              [183669.485970909590833, 29107.072047381141601],
+              [178466.788470707106171, 29107.072047381141601],
+              [178466.788470707106171, 44953.066044723862433]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "387",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [183802.888471189595293, 39526.552828299172688],
+              [190484.232870711392025, 39526.552828299172688],
+              [190484.232870711392025, 29100.535160637849913],
+              [183802.888471189595293, 29100.535160637849913],
+              [183802.888471189595293, 39526.552828299172688]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "388",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [189331.764275934896432, 40946.572506903918111],
+              [183802.888470872305334, 40946.572506903918111],
+              [183802.888470872305334, 44879.332710256261635],
+              [189331.764275934896432, 44879.332710256261635],
+              [189331.764275934896432, 40946.572506903918111]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC8",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "389",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [199287.105907183809904, 66651.424797665094957],
+              [195885.72189023689134, 66651.424797665094957],
+              [195885.72189023689134, 72921.378041178570129],
+              [199287.105907183809904, 72921.378041178570129],
+              [199287.105907183809904, 66651.424797665094957]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [91368.499440603351104, 105617.405712370993569],
+              [82873.104808132047765, 105617.405712370993569],
+              [82873.104808132047765, 102364.941986903097131],
+              [91368.499440603351104, 102364.941986903097131],
+              [91368.499440603351104, 105617.405712370993569]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [81574.572940082856803, 94560.895736903039506],
+              [77851.361294621514389, 94560.895736903039506],
+              [77851.361294621514389, 106833.925736903402139],
+              [81574.572940082856803, 106833.925736903402139],
+              [81574.572940082856803, 94560.895736903039506]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [77851.361294621252455, 94427.4932369034359],
+              [83057.755515718032257, 94427.4932369034359],
+              [83057.755515718032257, 79616.425273769331397],
+              [77851.361294621252455, 79616.425273769331397],
+              [77851.361294621252455, 94427.4932369034359]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KHUKT",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [99844.459103280474665, 88904.813896380335791],
+              [161265.54303204320604, 88904.813896380335791],
+              [161265.54303204320604, 77341.912648769677617],
+              [99844.459103280474665, 77341.912648769677617],
+              [99844.459103280474665, 88904.813896380335791]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC5",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [167230.160202700208174, 86661.799797592364484],
+              [190006.788657612807583, 86661.799797592364484],
+              [190006.788657612807583, 78124.592190027673496],
+              [167230.160202700208174, 78124.592190027673496],
+              [167230.160202700208174, 86661.799797592364484]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC7",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "38F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [169461.978778798686108, 73084.039267644664505],
+              [172395.692825010890374, 73084.039267644664505],
+              [172395.692825010890374, 76082.145834997296333],
+              [169461.978778798686108, 76082.145834997296333],
+              [169461.978778798686108, 73084.039267644664505]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "390",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [190233.572906346613308, 86661.799797602347098],
+              [198986.86808628810104, 86661.799797602347098],
+              [198986.86808628810104, 78124.592190036841203],
+              [190233.572906346613308, 78124.592190036841203],
+              [190233.572906346613308, 86661.799797602347098]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "391",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [199287.402268261299469, 85872.155450449587079],
+              [204089.595907495706342, 85872.155450449587079],
+              [204089.595907495706342, 77937.276297651143977],
+              [199287.402268261299469, 77937.276297651143977],
+              [199287.402268261299469, 85872.155450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "392",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [117393.902268261401332, 118578.655450449601631],
+              [130051.902268261299469, 118578.655450449601631],
+              [130051.902268261299469, 94912.655450449587079],
+              [125043.402268261401332, 94912.655450449587079],
+              [125043.402268261401332, 113390.655450449601631],
+              [117218.402268261401332, 113390.655450449601631],
+              [117393.902268261401332, 118578.655450449601631]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "393",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [134346.962376604991732, 118606.561673978998442],
+              [147004.962376604991732, 118606.561673978998442],
+              [147004.962376604991732, 94940.561673979042098],
+              [141996.462376604991732, 94940.561673979042098],
+              [141996.462376604991732, 113418.561673978998442],
+              [134171.462376604991732, 113418.561673978998442],
+              [134346.962376604991732, 118606.561673978998442]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "394",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [151697.800765462394338, 118481.810170436699991],
+              [164355.800765462394338, 118481.810170436699991],
+              [164355.800765462394338, 94815.810170436714543],
+              [159347.300765462394338, 94815.810170436714543],
+              [159347.300765462394338, 113293.810170436699991],
+              [151522.300765462394338, 113293.810170436699991],
+              [151697.800765462394338, 118481.810170436699991]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "395",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [167898.104870921612019, 118475.207716860095388],
+              [180556.104870921612019, 118475.207716860095388],
+              [180556.104870921612019, 94809.207716860124492],
+              [175547.604870921612019, 94809.207716860124492],
+              [175547.604870921612019, 113287.207716860095388],
+              [167722.604870921612019, 113287.207716860095388],
+              [167898.104870921612019, 118475.207716860095388]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC5",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "396",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [203540.633826608187519, 115567.014170321795973],
+              [196152.40226826138678, 115567.014170321795973],
+              [196152.40226826138678, 111129.655450449601631],
+              [203540.633826608187519, 111129.655450449601631],
+              [203540.633826608187519, 115567.014170321795973]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC9",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "397",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [258737.930032496486092, 36059.29516116593004],
+              [261139.175032497005304, 36059.29516116593004],
+              [261139.175032497005304, 31185.554758042810136],
+              [258737.930032496486092, 31185.554758042810136],
+              [258737.930032496486092, 36059.29516116593004]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "398",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [258067.40226826138678, 44239.655450449587079],
+              [266508.532669731823262, 44239.655450449587079],
+              [266508.532669731823262, 29102.309319543419406],
+              [258067.40226826138678, 29102.309319543419406],
+              [258067.40226826138678, 44239.655450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "L&FDG24",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "399",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [254797.40226826138678, 57689.155450449601631],
+              [266730.063015553809237, 57689.155450449601631],
+              [266730.063015553809237, 48363.909982907462108],
+              [254797.40226826138678, 48363.909982907462108],
+              [254797.40226826138678, 57689.155450449601631]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "L&FDG23",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [254786.90226826138678, 66984.155450449587079],
+              [266730.063015554507729, 66984.155450449587079],
+              [266730.063015554507729, 57566.322553409532702],
+              [254786.90226826138678, 57566.322553409532702],
+              [254786.90226826138678, 66984.155450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [266730.063015553809237, 67293.618503883189987],
+              [258311.110742651595501, 67293.618503883189987],
+              [258311.110742651595501, 89940.467367808334529],
+              [266730.063015553809237, 89940.467367808334529],
+              [266730.063015553809237, 67293.618503883189987]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC6",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [221445.794498087489046, 115206.827420321802492],
+              [229355.90226826138678, 115206.827420321802492],
+              [229355.90226826138678, 111840.655450449601631],
+              [221445.794498087489046, 111840.655450449601631],
+              [221445.794498087489046, 115206.827420321802492]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY5",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [231922.40226826138678, 118686.155450449601631],
+              [243429.40226826138678, 118686.155450449601631],
+              [243429.40226826138678, 94422.155450449587079],
+              [238988.90226826138678, 94422.155450449587079],
+              [238988.90226826138678, 113886.655450449601631],
+              [232719.90226826138678, 113886.655450449601631],
+              [231896.40226826138678, 113886.655450449601631],
+              [231896.40226826138678, 118686.155450449601631],
+              [231922.40226826138678, 118686.155450449601631]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY6",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [248756.655421503586695, 118469.010135133503354],
+              [260263.655421503586695, 118469.010135133503354],
+              [260263.655421503586695, 94205.01013513354701],
+              [255823.155421503586695, 94205.01013513354701],
+              [255823.155421503586695, 113669.510135133503354],
+              [249554.155421503586695, 113669.510135133503354],
+              [248730.655421503499383, 113669.510135133503354],
+              [248730.655421503499383, 118469.010135133503354],
+              [248756.655421503586695, 118469.010135133503354]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "39F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [68189.902268261372228, 114917.155450449601631],
+              [98495.902268261372228, 114917.155450449601631],
+              [98495.902268261372228, 109350.155450449601631],
+              [68189.902268261372228, 109350.155450449601631],
+              [68189.902268261372228, 114917.155450449601631]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [24674.40226826136859, 90579.655450449587079],
+              [61750.402268261357676, 90579.655450449587079],
+              [61750.402268261357676, 85648.655450449587079],
+              [24674.40226826136859, 85648.655450449587079],
+              [24674.40226826136859, 90579.655450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63393.384485244059761, 115338.618264749398804],
+              [67195.355734445241978, 115338.618264749398804],
+              [67195.355734445241978, 105522.791545999600203],
+              [63393.384485244059761, 105522.791545999600203],
+              [63393.384485244059761, 115338.618264749398804]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63402.902268261357676, 118980.155450449601631],
+              [67308.382508283277275, 118980.155450449601631],
+              [67308.382508283277275, 115588.414988556294702],
+              [63402.902268261357676, 115588.414988556294702],
+              [63402.902268261357676, 118980.155450449601631]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QNHANHLY1",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [271151.041389642574359, 119879.022297648203676],
+              [271151.041389642574359, 94204.282089886895847],
+              [266863.383319845190272, 94204.902153053073562],
+              [266863.383319845190272, 9388.655024854704607],
+              [341862.902268261415884, 9388.655024854704607],
+              [341862.902268261183053, 21961.267904541909957],
+              [408142.049115871195681, 21961.267904698739585],
+              [408142.049115871195681, 86747.935849506087834],
+              [341065.957613130507525, 87020.7686310694844],
+              [341199.360113110684324, 119670.474662309905398],
+              [271151.041389642574359, 119879.022297648203676]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QUAYTHUTUCHANGKHONG2",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [275149.679606647521723, 118821.706845862499904],
+              [322500.402268261415884, 118821.706845862499904],
+              [322500.402268261415884, 111099.655450449601631],
+              [275149.679606647521723, 111099.655450449601631],
+              [275149.679606647521723, 118821.706845862499904]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE5",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [271177.721889642591123, 102610.345204903598642],
+              [280154.293917421193328, 102610.345204903598642],
+              [280154.293917421193328, 94202.98007718482404],
+              [271177.721889642591123, 94202.98007718482404],
+              [271177.721889642591123, 102610.345204903598642]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE6",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [280154.293917421193328, 102610.345204903598642],
+              [289727.899651344225276, 102610.345204903598642],
+              [289727.899651344225276, 94201.595582388981711],
+              [280154.293917421193328, 94201.595582388981711],
+              [280154.293917421193328, 102610.345204903598642]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE7",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [289727.899651344225276, 102610.345204903598642],
+              [298226.936913522484247, 102610.345204903598642],
+              [298226.936913522484247, 94200.366487188497558],
+              [289727.899651344225276, 94200.366487188497558],
+              [289727.899651344225276, 102610.345204903598642]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE8",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [298226.936913522484247, 102610.345204903598642],
+              [308103.43216946371831, 102610.345204903598642],
+              [308103.43216946371831, 94198.938189777574735],
+              [298226.936913522484247, 94198.938189777574735],
+              [298226.936913522484247, 102610.345204903598642]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE9",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3A9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [308103.43216946371831, 102599.466864538699156],
+              [316321.026169949094765, 102599.466864538699156],
+              [316321.026169949094765, 94197.749795723735588],
+              [308103.43216946371831, 94197.749795723735588],
+              [308103.43216946371831, 102599.466864538699156]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC10",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [335336.32023813057458, 116677.256068569506169],
+              [330377.486716557585169, 116677.256068569506169],
+              [330377.486716557585169, 119211.90356856980361],
+              [335336.32023813057458, 119211.90356856980361],
+              [335336.32023813057458, 116677.256068569506169]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [270964.277889642689843, 100273.91799378869473],
+              [266742.069240522105247, 100273.91799378869473],
+              [266742.069240522105247, 94432.501012793349219],
+              [270964.277889642689843, 94432.501012793349219],
+              [270964.277889642689843, 100273.91799378869473]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KT4",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [270059.141925631905906, 89671.887888978963019],
+              [280409.759704921219964, 89671.887888978963019],
+              [280409.759704921219964, 77488.604570321913343],
+              [270059.141925631905906, 77488.604570321913343],
+              [270059.141925631905906, 89671.887888978963019]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE10",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AD",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [280797.484079175686929, 89671.887888978963019],
+              [287426.180171605315991, 89671.887888978963019],
+              [287426.180171605315991, 77488.604570321505889],
+              [280797.484079175686929, 77488.604570321505889],
+              [280797.484079175686929, 89671.887888978963019]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "OFFICE11",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [287692.985171604610514, 89671.887888978963019],
+              [292551.470438130607363, 89671.887888978963019],
+              [292551.470438130607363, 77863.798693569842726],
+              [287692.985171604610514, 77863.798693569842726],
+              [287692.985171604610514, 89671.887888978963019]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KT5",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3AF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [292818.275438130600378, 85225.9495703210996],
+              [300259.86880735430168, 85225.9495703210996],
+              [300259.86880735430168, 77488.604570325405803],
+              [292818.275438130600378, 77488.604570325405803],
+              [292818.275438130600378, 85225.9495703210996]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [315840.859365612326656, 89004.875388978805859],
+              [324071.793615988921374, 89004.875388978805859],
+              [324071.793615988921374, 77355.202070318744518],
+              [315840.859365612326656, 77355.202070318744518],
+              [315840.859365612326656, 89004.875388978805859]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC9",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [324338.598614020680543, 76620.996175136038801],
+              [340795.402268261415884, 76620.996175136038801],
+              [340795.402268261415884, 65111.155450449587079],
+              [324338.598614020680543, 65111.155450449587079],
+              [324338.598614020680543, 76620.996175136038801]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [330458.438303406117484, 64745.783790702029364],
+              [334567.235303131106775, 64745.783790702029364],
+              [334567.235303131106775, 61384.040790724357066],
+              [330458.438303406117484, 61384.040790724357066],
+              [330458.438303406117484, 64745.783790702029364]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC11",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [340380.249240240722429, 62945.47522764182213],
+              [334743.993615553772543, 62945.47522764182213],
+              [334743.993615553772543, 53496.308492030038906],
+              [340380.249240240722429, 53496.308492030038906],
+              [340380.249240240722429, 62945.47522764182213]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QUAYVE",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [267614.108876054000575, 14015.549746339200283],
+              [278419.711376075807493, 14015.549746339200283],
+              [278419.711376075807493, 9788.862524644448058],
+              [267614.108876054000575, 9788.862524644448058],
+              [267614.108876054000575, 14015.549746339200283]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "WC7",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [341792.981715869973414, 35168.378008550193044],
+              [350899.036365861422382, 35168.378008550193044],
+              [350899.036365861422382, 22336.12940888689991],
+              [341792.981715869973414, 22336.12940888689991],
+              [341792.981715869973414, 35168.378008550193044]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TRAMBOMPCCC",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [351219.202365870703943, 35168.378008550258528],
+              [357702.56386587198358, 35168.378008550258528],
+              [357702.56386587198358, 22228.072904698739876],
+              [351219.202365870703943, 22228.072904698739876],
+              [351219.202365870703943, 35168.378008550258528]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "PMCHILLER",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [357969.368865870928857, 35168.378008550193044],
+              [374511.278865870728623, 35168.378008550193044],
+              [374511.278865870728623, 22228.072904698739876],
+              [357969.368865870928857, 22228.072904698739876],
+              [357969.368865870928857, 35168.378008550193044]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [374778.083865871187299, 35168.362547041477228],
+              [391186.591365872009192, 35168.362547041477228],
+              [391186.591365872009192, 22228.072904698739876],
+              [374778.083865871187299, 22228.072904698739876],
+              [374778.083865871187299, 35168.362547041477228]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TRAMBIENAP",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3B9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [391453.396365871885791, 35168.362547041477228],
+              [402539.144115871284157, 35168.362547041477228],
+              [402539.144115871284157, 22228.072904698739876],
+              [391453.396365871885791, 22228.072904698739876],
+              [391453.396365871885791, 35168.362547041477228]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DRAWDEMO",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [402805.949115871277172, 35168.362547041397193],
+              [407875.244115871086251, 35168.362547041397193],
+              [407875.244115871086251, 22228.072904698739876],
+              [402805.949115871277172, 22228.072904698739876],
+              [402805.949115871277172, 35168.362547041397193]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "QUAYTHUTUCHANGKHONG3",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [314539.919055497914087, 38435.408537484043336],
+              [301394.919055497972295, 38435.408537484043336],
+              [301394.919055497972295, 90777.40853748403606],
+              [314539.919055497914087, 90777.40853748403606],
+              [314539.919055497914087, 38435.408537484043336]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "PHONGDOIKHACHDI",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [355207.402268261415884, 80972.155450449587079],
+              [406820.902268261415884, 80972.155450449587079],
+              [406820.902268261415884, 57336.655450449587079],
+              [355207.402268261415884, 57336.655450449587079],
+              [355207.402268261415884, 80972.155450449587079]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KHULAMTTHANGKHONG",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BD",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [271151.041389642574359, 119879.022297648203676],
+              [341199.360113110684324, 119678.812318570096977],
+              [341862.902268261415884, 9388.655024854704607],
+              [266863.383319845190272, 9388.655024854704607],
+              [266863.383319845190272, 94204.902153053073562],
+              [271177.721889642591123, 94204.278231464646524],
+              [271151.041389642574359, 119879.022297648203676]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [43282.957609445518756, 103537.493334438593592],
+              [43549.762609445228009, 103537.493334438593592],
+              [43549.762609445228009, 102594.155450449601631],
+              [43282.957609445518756, 102594.155450449601631],
+              [43282.957609445518756, 103537.493334438593592]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3BF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5471.016699834868632, 116065.045827449896024],
+              [5737.82169983458607, 116065.045827449896024],
+              [5737.82169983458607, 115121.707943460904062],
+              [5471.016699834868632, 115121.707943460904062],
+              [5471.016699834868632, 116065.045827449896024]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [6937.532160567733627, 102411.121595879900269],
+              [8560.828027983847278, 102411.121595879900269],
+              [8560.828027983847278, 102296.825374043794],
+              [6937.532160567733627, 102296.825374043794],
+              [6937.532160567733627, 102411.121595879900269]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [7191.168087100293633, 120570.837958129093749],
+              [8814.463954516406375, 120570.837958129093749],
+              [8814.463954516406375, 120456.541736292900168],
+              [7191.168087100293633, 120456.541736292900168],
+              [7191.168087100293633, 120570.837958129093749]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [30714.121748358629702, 107411.492668596896692],
+              [32337.417615774738806, 107411.492668596896692],
+              [32337.417615774738806, 107297.196446760804974],
+              [30714.121748358629702, 107297.196446760804974],
+              [30714.121748358629702, 107411.492668596896692]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [32800.553780577291036, 119073.115158980494016],
+              [34423.849647993396502, 119073.115158980494016],
+              [34423.849647993396502, 118958.818937144300435],
+              [32800.553780577291036, 118958.818937144300435],
+              [32800.553780577291036, 119073.115158980494016]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [38878.868010403282824, 119076.425401384403813],
+              [40502.163877819366462, 119076.425401384403813],
+              [40502.163877819366462, 118962.12917954819568],
+              [38878.868010403282824, 118962.12917954819568],
+              [38878.868010403282824, 119076.425401384403813]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [38116.904435444310366, 73989.451514114101883],
+              [39740.200302860408556, 73989.451514114101883],
+              [39740.200302860408556, 73875.155292277951958],
+              [38116.904435444310366, 73875.155292277951958],
+              [38116.904435444310366, 73989.451514114101883]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [38602.404435444310366, 70498.451514114101883],
+              [40225.700302860423108, 70498.451514114101883],
+              [40225.700302860423108, 70384.155292277951958],
+              [38602.404435444310366, 70384.155292277951958],
+              [38602.404435444310366, 70498.451514114101883]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [25432.399639249470056, 66338.950591600892949],
+              [27055.69550666557916, 66338.950591600892949],
+              [27055.69550666557916, 66224.654369764757575],
+              [25432.399639249470056, 66224.654369764757575],
+              [25432.399639249470056, 66338.950591600892949]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [21484.399639249470056, 13640.45059160090932],
+              [23107.69550666557916, 13640.45059160090932],
+              [23107.69550666557916, 13526.154369764759394],
+              [21484.399639249470056, 13526.154369764759394],
+              [21484.399639249470056, 13640.45059160090932]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3C9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23603.899639249470056, 13640.45059160090932],
+              [25227.19550666557916, 13640.45059160090932],
+              [25227.19550666557916, 13526.154369764759394],
+              [23603.899639249470056, 13526.154369764759394],
+              [23603.899639249470056, 13640.45059160090932]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [73827.399639249473694, 12893.95059160090932],
+              [75450.69550666557916, 12893.95059160090932],
+              [75450.69550666557916, 12779.654369764759394],
+              [73827.399639249473694, 12779.654369764759394],
+              [73827.399639249473694, 12893.95059160090932]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [74457.399639249473694, 21831.950591600911139],
+              [76080.69550666557916, 21831.950591600911139],
+              [76080.69550666557916, 21717.654369764761213],
+              [74457.399639249473694, 21717.654369764761213],
+              [74457.399639249473694, 21831.950591600911139]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [48723.899639249466418, 8577.950591600912958],
+              [50347.195506665571884, 8577.950591600912958],
+              [50347.195506665571884, 8463.654369764764851],
+              [48723.899639249466418, 8463.654369764764851],
+              [48723.899639249466418, 8577.950591600912958]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CD",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [65362.899639249459142, 52062.450591600907501],
+              [66986.19550666557916, 52062.450591600907501],
+              [66986.19550666557916, 51948.154369764757575],
+              [65362.899639249459142, 51948.154369764757575],
+              [65362.899639249459142, 52062.450591600907501]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [52901.901074688612425, 67738.493510422224062],
+              [53168.706074688328954, 67738.493510422224062],
+              [53168.706074688328954, 66795.155626433232101],
+              [52901.901074688612425, 66795.155626433232101],
+              [52901.901074688612425, 67738.493510422224062]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3CF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63064.401074688612425, 57206.493510422238614],
+              [63331.206074688328954, 57206.493510422238614],
+              [63331.206074688328954, 56263.155626433232101],
+              [63064.401074688612425, 56263.155626433232101],
+              [63064.401074688612425, 57206.493510422238614]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [76877.901074688605149, 11946.993510422240433],
+              [77144.70607468833623, 11946.993510422240433],
+              [77144.70607468833623, 11003.655626433230282],
+              [76877.901074688605149, 11003.655626433230282],
+              [76877.901074688605149, 11946.993510422240433]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [83025.901074688619701, 83005.993510422238614],
+              [83292.70607468833623, 83005.993510422238614],
+              [83292.70607468833623, 82062.655626433246653],
+              [83025.901074688619701, 82062.655626433246653],
+              [83025.901074688619701, 83005.993510422238614]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [81560.901074688619701, 95894.993510422238614],
+              [81827.70607468833623, 95894.993510422238614],
+              [81827.70607468833623, 94951.655626433246653],
+              [81560.901074688619701, 94951.655626433246653],
+              [81560.901074688619701, 95894.993510422238614]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [81587.901074688619701, 100821.993510422194959],
+              [81854.70607468833623, 100821.993510422194959],
+              [81854.70607468833623, 99878.655626433232101],
+              [81587.901074688619701, 99878.655626433232101],
+              [81587.901074688619701, 100821.993510422194959]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [81669.902421091377619, 102309.452765072594048],
+              [83293.198288507468533, 102309.452765072594048],
+              [83293.198288507468533, 102195.15654323650233],
+              [81669.902421091377619, 102195.15654323650233],
+              [81669.902421091377619, 102309.452765072594048]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [85925.402421091363067, 79481.452765072637703],
+              [87548.698288507483085, 79481.452765072637703],
+              [87548.698288507483085, 79367.156543236487778],
+              [85925.402421091363067, 79367.156543236487778],
+              [85925.402421091363067, 79481.452765072637703]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [101624.902421091406723, 13597.452765072639522],
+              [103248.198288507497637, 13597.452765072639522],
+              [103248.198288507497637, 13483.156543236489597],
+              [101624.902421091406723, 13483.156543236489597],
+              [101624.902421091406723, 13597.452765072639522]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KHUSANHKHACHDEN",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [76863.635837051420822, 13598.672657095119575],
+              [76863.635837051420822, 1194.800725712990925],
+              [340613.7036163478042, 1194.800725712984104],
+              [340613.621419850620441, 9598.863819485666681],
+              [266863.383319845190272, 9598.863819485681233],
+              [266863.383319845190272, 28942.220729037628189],
+              [178466.225107200007187, 28942.220729037639103],
+              [178466.225107200007187, 13720.586610897580613],
+              [76863.553641342019546, 13720.586610897580613],
+              [76863.63583705201745, 13598.672693381909994],
+              [76863.635837051420822, 13598.672657095119575]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC12",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [118544.562027790394495, 11733.298229588159302],
+              [124661.902268261401332, 11733.298229588159302],
+              [124661.902268261401332, 9483.155450449592536],
+              [118544.562027790394495, 9483.155450449592536],
+              [118544.562027790394495, 11733.298229588159302]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "TC13",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3D9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [136623.291603797202697, 11733.298229588159302],
+              [142739.422414085100172, 11733.298229588159302],
+              [142739.422414085100172, 9598.858229588142422],
+              [136623.291603797202697, 9598.858229588142422],
+              [136623.291603797202697, 11733.298229588159302]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [146425.900288877688581, 13682.951557927710383],
+              [148049.196156293794047, 13682.951557927710383],
+              [148049.196156293794047, 13568.655336091560457],
+              [146425.900288877688581, 13568.655336091560457],
+              [146425.900288877688581, 13682.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [194324.400288877688581, 28915.451557927710383],
+              [195947.696156293794047, 28915.451557927710383],
+              [195947.696156293794047, 28801.155336091560457],
+              [194324.400288877688581, 28801.155336091560457],
+              [194324.400288877688581, 28915.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [202707.400288877688581, 28956.451557927710383],
+              [204330.696156293794047, 28956.451557927710383],
+              [204330.696156293794047, 28842.155336091560457],
+              [202707.400288877688581, 28842.155336091560457],
+              [202707.400288877688581, 28956.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DD",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [219368.900288877688581, 28831.951557927710383],
+              [220992.196156293794047, 28831.951557927710383],
+              [220992.196156293794047, 28717.655336091560457],
+              [219368.900288877688581, 28717.655336091560457],
+              [219368.900288877688581, 28831.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [236204.900288877688581, 28838.951557927710383],
+              [237828.196156293794047, 28838.951557927710383],
+              [237828.196156293794047, 28724.655336091560457],
+              [236204.900288877688581, 28724.655336091560457],
+              [236204.900288877688581, 28838.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3DF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [253278.900288877688581, 28833.951557927710383],
+              [254902.196156293794047, 28833.951557927710383],
+              [254902.196156293794047, 28719.655336091560457],
+              [253278.900288877688581, 28719.655336091560457],
+              [253278.900288877688581, 28833.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [258655.400288877688581, 28839.951557927710383],
+              [260278.696156293794047, 28839.951557927710383],
+              [260278.696156293794047, 28725.655336091560457],
+              [258655.400288877688581, 28725.655336091560457],
+              [258655.400288877688581, 28839.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [264101.400288877717685, 28840.451557927710383],
+              [265724.696156293794047, 28840.451557927710383],
+              [265724.696156293794047, 28726.155336091560457],
+              [264101.400288877717685, 28726.155336091560457],
+              [264101.400288877717685, 28840.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [286553.400288877717685, 9389.451557927712201],
+              [288176.696156293794047, 9389.451557927712201],
+              [288176.696156293794047, 9275.155336091562276],
+              [286553.400288877717685, 9275.155336091562276],
+              [286553.400288877717685, 9389.451557927712201]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [319567.900288877717685, 9376.951557927712201],
+              [321191.196156293794047, 9376.951557927712201],
+              [321191.196156293794047, 9262.655336091562276],
+              [319567.900288877717685, 9262.655336091562276],
+              [319567.900288877717685, 9376.951557927712201]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [355051.400288877717685, 21938.951557927710383],
+              [356674.696156293794047, 21938.951557927710383],
+              [356674.696156293794047, 21824.655336091560457],
+              [355051.400288877717685, 21824.655336091560457],
+              [355051.400288877717685, 21938.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [371549.400288877717685, 21947.451557927710383],
+              [373172.696156293794047, 21947.451557927710383],
+              [373172.696156293794047, 21833.155336091560457],
+              [371549.400288877717685, 21833.155336091560457],
+              [371549.400288877717685, 21947.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [388581.400288877717685, 21944.951557927710383],
+              [390204.696156293794047, 21944.951557927710383],
+              [390204.696156293794047, 21830.655336091560457],
+              [388581.400288877717685, 21830.655336091560457],
+              [388581.400288877717685, 21944.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [399947.900288877717685, 21958.451557927710383],
+              [401571.196156293794047, 21958.451557927710383],
+              [401571.196156293794047, 21844.155336091560457],
+              [399947.900288877717685, 21844.155336091560457],
+              [399947.900288877717685, 21958.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [404548.900288877717685, 21928.451557927710383],
+              [406172.196156293794047, 21928.451557927710383],
+              [406172.196156293794047, 21814.155336091560457],
+              [404548.900288877717685, 21814.155336091560457],
+              [404548.900288877717685, 21928.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3E9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [102780.900288877703133, 116259.951557927706745],
+              [104404.196156293794047, 116259.951557927706745],
+              [104404.196156293794047, 116145.655336091498611],
+              [102780.900288877703133, 116145.655336091498611],
+              [102780.900288877703133, 116259.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3EA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [107517.400288877703133, 116382.451557927706745],
+              [109140.696156293794047, 116382.451557927706745],
+              [109140.696156293794047, 116268.155336091498611],
+              [107517.400288877703133, 116268.155336091498611],
+              [107517.400288877703133, 116382.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3EB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [105537.400288877703133, 116382.451557927706745],
+              [107160.696156293794047, 116382.451557927706745],
+              [107160.696156293794047, 116268.155336091498611],
+              [105537.400288877703133, 116268.155336091498611],
+              [105537.400288877703133, 116382.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3EC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [109427.400288877703133, 116362.451557927706745],
+              [111050.696156293794047, 116362.451557927706745],
+              [111050.696156293794047, 116248.155336091498611],
+              [109427.400288877703133, 116248.155336091498611],
+              [109427.400288877703133, 116362.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3ED",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [111769.400288877703133, 116312.451557927706745],
+              [113392.696156293794047, 116312.451557927706745],
+              [113392.696156293794047, 116198.155336091498611],
+              [111769.400288877703133, 116198.155336091498611],
+              [111769.400288877703133, 116312.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3EE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [117520.400288877703133, 116273.451557927706745],
+              [119143.696156293794047, 116273.451557927706745],
+              [119143.696156293794047, 116159.155336091498611],
+              [117520.400288877703133, 116159.155336091498611],
+              [117520.400288877703133, 116273.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3EF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [128488.900288877703133, 116269.951557927706745],
+              [130112.196156293794047, 116269.951557927706745],
+              [130112.196156293794047, 116155.655336091600475],
+              [128488.900288877703133, 116155.655336091600475],
+              [128488.900288877703133, 116269.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F0",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [134395.900288877688581, 116245.951557927706745],
+              [136019.196156293794047, 116245.951557927706745],
+              [136019.196156293794047, 116131.655336091498611],
+              [134395.900288877688581, 116131.655336091498611],
+              [134395.900288877688581, 116245.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F1",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [145406.900288877688581, 116235.451557927706745],
+              [147030.196156293794047, 116235.451557927706745],
+              [147030.196156293794047, 116121.155336091498611],
+              [145406.900288877688581, 116121.155336091498611],
+              [145406.900288877688581, 116235.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F2",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [151903.400288877688581, 116264.951557927706745],
+              [153526.696156293794047, 116264.951557927706745],
+              [153526.696156293794047, 116150.655336091498611],
+              [151903.400288877688581, 116150.655336091498611],
+              [151903.400288877688581, 116264.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F3",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [162157.400288877688581, 116255.451557927706745],
+              [163780.696156293794047, 116255.451557927706745],
+              [163780.696156293794047, 116141.155336091498611],
+              [162157.400288877688581, 116141.155336091498611],
+              [162157.400288877688581, 116255.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F4",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [167817.400288877688581, 116264.951557927706745],
+              [169440.696156293794047, 116264.951557927706745],
+              [169440.696156293794047, 116150.655336091498611],
+              [167817.400288877688581, 116150.655336091498611],
+              [167817.400288877688581, 116264.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F5",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178972.400288877688581, 116253.451557927706745],
+              [180595.696156293794047, 116253.451557927706745],
+              [180595.696156293794047, 116139.155336091498611],
+              [178972.400288877688581, 116139.155336091498611],
+              [178972.400288877688581, 116253.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F6",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [200748.400288877688581, 119400.951557927706745],
+              [202371.696156293794047, 119400.951557927706745],
+              [202371.696156293794047, 119286.655336091498611],
+              [200748.400288877688581, 119286.655336091498611],
+              [200748.400288877688581, 119400.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F7",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [203309.400288877688581, 119393.951557927706745],
+              [204932.696156293794047, 119393.951557927706745],
+              [204932.696156293794047, 119279.655336091498611],
+              [203309.400288877688581, 119279.655336091498611],
+              [203309.400288877688581, 119393.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F8",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [209230.400288877688581, 119369.451557927706745],
+              [210853.696156293794047, 119369.451557927706745],
+              [210853.696156293794047, 119255.155336091498611],
+              [209230.400288877688581, 119255.155336091498611],
+              [209230.400288877688581, 119369.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3F9",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [211807.900288877688581, 119389.951557927706745],
+              [213431.196156293794047, 119389.951557927706745],
+              [213431.196156293794047, 119275.655336091498611],
+              [211807.900288877688581, 119275.655336091498611],
+              [211807.900288877688581, 119389.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FA",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [217698.400288877688581, 119385.451557927706745],
+              [219321.696156293794047, 119385.451557927706745],
+              [219321.696156293794047, 119271.155336091498611],
+              [217698.400288877688581, 119271.155336091498611],
+              [217698.400288877688581, 119385.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FB",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [220215.400288877688581, 119373.451557927706745],
+              [221838.696156293794047, 119373.451557927706745],
+              [221838.696156293794047, 119259.155336091498611],
+              [220215.400288877688581, 119259.155336091498611],
+              [220215.400288877688581, 119373.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FC",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [225377.900288877688581, 119351.451557927706745],
+              [227001.196156293794047, 119351.451557927706745],
+              [227001.196156293794047, 119237.155336091498611],
+              [225377.900288877688581, 119237.155336091498611],
+              [225377.900288877688581, 119351.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FD",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [232275.400288877688581, 116287.951557927706745],
+              [233898.696156293794047, 116287.951557927706745],
+              [233898.696156293794047, 116173.655336091498611],
+              [232275.400288877688581, 116173.655336091498611],
+              [232275.400288877688581, 116287.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FE",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [242000.400288877804996, 116314.951557927706745],
+              [243623.696156293794047, 116314.951557927706745],
+              [243623.696156293794047, 116200.655336091498611],
+              [242000.400288877804996, 116200.655336091498611],
+              [242000.400288877804996, 116314.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "3FF",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [248705.400288877804996, 116274.951557927706745],
+              [250328.696156293794047, 116274.951557927706745],
+              [250328.696156293794047, 116160.655336091498611],
+              [248705.400288877804996, 116160.655336091498611],
+              [248705.400288877804996, 116274.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "400",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [258677.900288877688581, 116255.451557927706745],
+              [260301.196156293794047, 116255.451557927706745],
+              [260301.196156293794047, 116141.155336091498611],
+              [258677.900288877688581, 116141.155336091498611],
+              [258677.900288877688581, 116255.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "401",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [261560.900288877804996, 116261.951557927706745],
+              [263184.196156293794047, 116261.951557927706745],
+              [263184.196156293794047, 116147.655336091498611],
+              [261560.900288877804996, 116147.655336091498611],
+              [261560.900288877804996, 116261.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "402",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [264758.900288877717685, 116247.451557927706745],
+              [266382.196156293794047, 116247.451557927706745],
+              [266382.196156293794047, 116133.155336091498611],
+              [264758.900288877717685, 116133.155336091498611],
+              [264758.900288877717685, 116247.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "403",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [267270.900288877717685, 116239.951557927706745],
+              [268894.196156293794047, 116239.951557927706745],
+              [268894.196156293794047, 116125.655336091600475],
+              [267270.900288877717685, 116125.655336091600475],
+              [267270.900288877717685, 116239.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "404",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [269414.400288877717685, 119864.951557927706745],
+              [271037.696156293794047, 119864.951557927706745],
+              [271037.696156293794047, 119750.655336091498611],
+              [269414.400288877717685, 119750.655336091498611],
+              [269414.400288877717685, 119864.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "405",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [119335.400288877703133, 67633.451557927706745],
+              [120958.696156293794047, 67633.451557927706745],
+              [120958.696156293794047, 67519.155336091556819],
+              [119335.400288877703133, 67519.155336091556819],
+              [119335.400288877703133, 67633.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "406",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [125122.400288877703133, 67592.951557927706745],
+              [126745.696156293794047, 67592.951557927706745],
+              [126745.696156293794047, 67478.655336091556819],
+              [125122.400288877703133, 67478.655336091556819],
+              [125122.400288877703133, 67592.951557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "407",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [160085.900288877688581, 19509.951557927710383],
+              [161709.196156293794047, 19509.951557927710383],
+              [161709.196156293794047, 19395.655336091560457],
+              [160085.900288877688581, 19395.655336091560457],
+              [160085.900288877688581, 19509.951557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "408",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [165169.900288877688581, 19499.451557927710383],
+              [166793.196156293794047, 19499.451557927710383],
+              [166793.196156293794047, 19385.155336091560457],
+              [165169.900288877688581, 19385.155336091560457],
+              [165169.900288877688581, 19499.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "409",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [176360.900288877688581, 19437.451557927710383],
+              [177984.196156293794047, 19437.451557927710383],
+              [177984.196156293794047, 19323.155336091560457],
+              [176360.900288877688581, 19323.155336091560457],
+              [176360.900288877688581, 19437.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172721.900288877688581, 29797.451557927710383],
+              [174345.196156293794047, 29797.451557927710383],
+              [174345.196156293794047, 29683.155336091560457],
+              [172721.900288877688581, 29683.155336091560457],
+              [172721.900288877688581, 29797.451557927710383]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [140537.900288877688581, 67489.451557927706745],
+              [142161.196156293794047, 67489.451557927706745],
+              [142161.196156293794047, 67375.155336091556819],
+              [140537.900288877688581, 67375.155336091556819],
+              [140537.900288877688581, 67489.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [148033.900288877688581, 67494.451557927706745],
+              [149657.196156293794047, 67494.451557927706745],
+              [149657.196156293794047, 67380.155336091556819],
+              [148033.900288877688581, 67380.155336091556819],
+              [148033.900288877688581, 67494.451557927706745]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [104637.403979742593947, 71181.993668320996221],
+              [104904.208979742295924, 71181.993668320996221],
+              [104904.208979742295924, 70238.655784331975156],
+              [104637.403979742593947, 70238.655784331975156],
+              [104637.403979742593947, 71181.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [124844.903979742593947, 71263.493668320996221],
+              [125111.708979742295924, 71263.493668320996221],
+              [125111.708979742295924, 70320.155784331989707],
+              [124844.903979742593947, 70320.155784331989707],
+              [124844.903979742593947, 71263.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "40F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [126515.903979742593947, 71187.493668320996221],
+              [126782.708979742295924, 71187.493668320996221],
+              [126782.708979742295924, 70244.155784331989707],
+              [126515.903979742593947, 70244.155784331989707],
+              [126515.903979742593947, 71187.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "410",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [147783.903979742608499, 70914.493668320996221],
+              [148050.708979742310476, 70914.493668320996221],
+              [148050.708979742310476, 69971.155784331989707],
+              [147783.903979742608499, 69971.155784331989707],
+              [147783.903979742608499, 70914.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "411",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172347.903979742608499, 35782.493668321010773],
+              [172614.708979742310476, 35782.493668321010773],
+              [172614.708979742310476, 34839.155784331996983],
+              [172347.903979742608499, 34839.155784331996983],
+              [172347.903979742608499, 35782.493668321010773]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "412",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172516.403979742608499, 44231.993668321003497],
+              [172783.208979742310476, 44231.993668321003497],
+              [172783.208979742310476, 43288.655784331989707],
+              [172516.403979742608499, 43288.655784331989707],
+              [172516.403979742608499, 44231.993668321003497]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "413",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178322.903979742608499, 44477.993668321003497],
+              [178589.708979742310476, 44477.993668321003497],
+              [178589.708979742310476, 43534.655784331989707],
+              [178322.903979742608499, 43534.655784331989707],
+              [178322.903979742608499, 44477.993668321003497]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "414",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172525.903979742608499, 59643.993668321003497],
+              [172792.708979742310476, 59643.993668321003497],
+              [172792.708979742310476, 58700.655784331996983],
+              [172525.903979742608499, 58700.655784331996983],
+              [172525.903979742608499, 59643.993668321003497]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "415",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [169073.403979742608499, 77753.493668320996221],
+              [169340.208979742310476, 77753.493668320996221],
+              [169340.208979742310476, 76810.155784331989707],
+              [169073.403979742608499, 76810.155784331989707],
+              [169073.403979742608499, 77753.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "416",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178196.403979742608499, 76448.493668320996221],
+              [178463.208979742310476, 76448.493668320996221],
+              [178463.208979742310476, 75505.155784331975156],
+              [178196.403979742608499, 75505.155784331975156],
+              [178196.403979742608499, 76448.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "417",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [178270.403979742608499, 65822.493668320996221],
+              [178537.208979742310476, 65822.493668320996221],
+              [178537.208979742310476, 64879.155784331996983],
+              [178270.403979742608499, 64879.155784331996983],
+              [178270.403979742608499, 65822.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "418",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [172407.403979742608499, 66246.993668320996221],
+              [172674.208979742310476, 66246.993668320996221],
+              [172674.208979742310476, 65303.655784331989707],
+              [172407.403979742608499, 65303.655784331989707],
+              [172407.403979742608499, 66246.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "419",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [196046.403979742608499, 76551.993668320996221],
+              [196313.208979742310476, 76551.993668320996221],
+              [196313.208979742310476, 75608.655784331989707],
+              [196046.403979742608499, 75608.655784331989707],
+              [196046.403979742608499, 76551.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [199297.403979742608499, 76584.993668320996221],
+              [199564.208979742310476, 76584.993668320996221],
+              [199564.208979742310476, 75641.655784331989707],
+              [199297.403979742608499, 75641.655784331989707],
+              [199297.403979742608499, 76584.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [207742.403979742608499, 115441.993668320996221],
+              [208009.208979742310476, 115441.993668320996221],
+              [208009.208979742310476, 114498.655784332004259],
+              [207742.403979742608499, 114498.655784332004259],
+              [207742.403979742608499, 115441.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [207667.903979742608499, 112870.993668320996221],
+              [207934.708979742310476, 112870.993668320996221],
+              [207934.708979742310476, 111927.655784332004259],
+              [207667.903979742608499, 111927.655784332004259],
+              [207667.903979742608499, 112870.993668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [216169.903979742608499, 113802.493668320996221],
+              [216436.708979742397787, 113802.493668320996221],
+              [216436.708979742397787, 112859.155784332004259],
+              [216169.903979742608499, 112859.155784332004259],
+              [216169.903979742608499, 113802.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [266519.903979742724914, 112137.493668320996221],
+              [266786.708979742310476, 112137.493668320996221],
+              [266786.708979742310476, 111194.155784332004259],
+              [266519.903979742724914, 111194.155784332004259],
+              [266519.903979742724914, 112137.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "41F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [266456.903979742608499, 109641.493668320996221],
+              [266723.708979742310476, 109641.493668320996221],
+              [266723.708979742310476, 108698.155784332004259],
+              [266456.903979742608499, 108698.155784332004259],
+              [266456.903979742608499, 109641.493668320996221]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "420",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [257697.903979742608499, 59062.493668321003497],
+              [257964.708979742310476, 59062.493668321003497],
+              [257964.708979742310476, 58119.155784331989707],
+              [257697.903979742608499, 58119.155784331989707],
+              [257697.903979742608499, 59062.493668321003497]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "421",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [341529.903979742724914, 27804.493668320999859],
+              [341796.708979742426891, 27804.493668320999859],
+              [341796.708979742426891, 26861.155784332000621],
+              [341529.903979742724914, 26861.155784332000621],
+              [341529.903979742724914, 27804.493668320999859]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "422",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [276817.905136702291202, 14119.95170442753988],
+              [278441.201004118425772, 14119.95170442753988],
+              [278441.201004118425772, 14005.655482591389955],
+              [276817.905136702291202, 14005.655482591389955],
+              [276817.905136702291202, 14119.95170442753988]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "423",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [277975.905136702291202, 77475.951704427541699],
+              [279599.201004118425772, 77475.951704427541699],
+              [279599.201004118425772, 77361.655482591391774],
+              [277975.905136702291202, 77361.655482591391774],
+              [277975.905136702291202, 77475.951704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "424",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [285412.405136702291202, 77475.951704427541699],
+              [287035.701004118425772, 77475.951704427541699],
+              [287035.701004118425772, 77361.655482591391774],
+              [285412.405136702291202, 77361.655482591391774],
+              [285412.405136702291202, 77475.951704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "425",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [290688.405136702291202, 77846.451704427541699],
+              [292311.701004118425772, 77846.451704427541699],
+              [292311.701004118425772, 77732.155482591391774],
+              [290688.405136702291202, 77732.155482591391774],
+              [290688.405136702291202, 77846.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "426",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [294147.905136702291202, 77484.451704427541699],
+              [295771.201004118425772, 77484.451704427541699],
+              [295771.201004118425772, 77370.155482591391774],
+              [294147.905136702291202, 77370.155482591391774],
+              [294147.905136702291202, 77484.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "427",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [294093.905136702291202, 85316.451704427541699],
+              [295717.201004118425772, 85316.451704427541699],
+              [295717.201004118425772, 85202.155482591391774],
+              [294093.905136702291202, 85202.155482591391774],
+              [294093.905136702291202, 85316.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "428",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [322344.405136702291202, 77348.951704427541699],
+              [323967.701004118425772, 77348.951704427541699],
+              [323967.701004118425772, 77234.655482591391774],
+              [322344.405136702291202, 77234.655482591391774],
+              [322344.405136702291202, 77348.951704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "429",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [321309.405136702291202, 94074.451704427541699],
+              [322932.701004118425772, 94074.451704427541699],
+              [322932.701004118425772, 93960.155482591391774],
+              [321309.405136702291202, 93960.155482591391774],
+              [321309.405136702291202, 94074.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [324772.405136702291202, 116417.451704427498044],
+              [326395.701004118425772, 116417.451704427498044],
+              [326395.701004118425772, 116303.155482591406326],
+              [324772.405136702291202, 116303.155482591406326],
+              [324772.405136702291202, 116417.451704427498044]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [327526.405136702291202, 116417.451704427498044],
+              [329149.701004118425772, 116417.451704427498044],
+              [329149.701004118425772, 116303.155482591406326],
+              [327526.405136702291202, 116303.155482591406326],
+              [327526.405136702291202, 116417.451704427498044]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [337750.405136702407617, 119691.451704427498044],
+              [339373.701004118425772, 119691.451704427498044],
+              [339373.701004118425772, 119577.155482591406326],
+              [337750.405136702407617, 119577.155482591406326],
+              [337750.405136702407617, 119691.451704427498044]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [347131.905136702291202, 86976.451704427541699],
+              [348755.201004118425772, 86976.451704427541699],
+              [348755.201004118425772, 86862.155482591406326],
+              [347131.905136702291202, 86862.155482591406326],
+              [347131.905136702291202, 86976.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [360521.905136702291202, 86934.951704427556251],
+              [362145.201004118425772, 86934.951704427556251],
+              [362145.201004118425772, 86820.655482591391774],
+              [360521.905136702291202, 86820.655482591391774],
+              [360521.905136702291202, 86934.951704427556251]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "42F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [375608.405136702291202, 86857.451704427527147],
+              [377231.701004118425772, 86857.451704427527147],
+              [377231.701004118425772, 86743.155482591391774],
+              [375608.405136702291202, 86743.155482591391774],
+              [375608.405136702291202, 86857.451704427527147]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "430",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [388759.405136702291202, 86797.951704427556251],
+              [390382.701004118309356, 86797.951704427556251],
+              [390382.701004118309356, 86683.655482591391774],
+              [388759.405136702291202, 86683.655482591391774],
+              [388759.405136702291202, 86797.951704427556251]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "431",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [398854.405136702291202, 86763.451704427541699],
+              [400477.701004118309356, 86763.451704427541699],
+              [400477.701004118309356, 86649.155482591406326],
+              [398854.405136702291202, 86649.155482591406326],
+              [398854.405136702291202, 86763.451704427541699]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "432",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [341591.403420109010767, 13470.993286440090742],
+              [341858.208420108712744, 13470.993286440090742],
+              [341858.208420108712744, 12527.655402451089685],
+              [341591.403420109010767, 12527.655402451089685],
+              [341591.403420109010767, 13470.993286440090742]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "433",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [330567.899712363898288, 76787.452134107181337],
+              [332191.195579779974651, 76787.452134107181337],
+              [332191.195579779974651, 76673.155912271031411],
+              [330567.899712363898288, 76673.155912271031411],
+              [330567.899712363898288, 76787.452134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "434",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [180080.399712363898288, 86761.952134107181337],
+              [181703.695579780003754, 86761.952134107181337],
+              [181703.695579780003754, 86647.655912271031411],
+              [180080.399712363898288, 86647.655912271031411],
+              [180080.399712363898288, 86761.952134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "435",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [170102.899712363898288, 71500.952134107181337],
+              [171726.195579780003754, 71500.952134107181337],
+              [171726.195579780003754, 71386.655912271031411],
+              [170102.899712363898288, 71386.655912271031411],
+              [170102.899712363898288, 71500.952134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "436",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [167204.899712363898288, 71516.952134107181337],
+              [168828.195579780003754, 71516.952134107181337],
+              [168828.195579780003754, 71402.655912271031411],
+              [167204.899712363898288, 71402.655912271031411],
+              [167204.899712363898288, 71516.952134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "437",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [164949.399712363898288, 71516.952134107181337],
+              [166572.695579780003754, 71516.952134107181337],
+              [166572.695579780003754, 71402.655912271031411],
+              [164949.399712363898288, 71402.655912271031411],
+              [164949.399712363898288, 71516.952134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "438",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [161957.399712363898288, 71532.452134107181337],
+              [163580.695579780003754, 71532.452134107181337],
+              [163580.695579780003754, 71418.155912271031411],
+              [161957.399712363898288, 71418.155912271031411],
+              [161957.399712363898288, 71532.452134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "439",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [165280.899712363898288, 77274.452134107181337],
+              [166904.195579780003754, 77274.452134107181337],
+              [166904.195579780003754, 77160.155912271031411],
+              [165280.899712363898288, 77160.155912271031411],
+              [165280.899712363898288, 77274.452134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43A",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [165285.399712363898288, 86878.952134107166785],
+              [166908.695579780003754, 86878.952134107166785],
+              [166908.695579780003754, 86764.655912271031411],
+              [165285.399712363898288, 86764.655912271031411],
+              [165285.399712363898288, 86878.952134107166785]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43B",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [158930.899712363898288, 88971.952134107181337],
+              [160554.195579780003754, 88971.952134107181337],
+              [160554.195579780003754, 88857.655912271031411],
+              [158930.899712363898288, 88857.655912271031411],
+              [158930.899712363898288, 88971.952134107181337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43C",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [266814.903420109010767, 21869.493286440101656],
+              [267081.708420108712744, 21869.493286440101656],
+              [267081.708420108712744, 20926.155402451091504],
+              [266814.903420109010767, 20926.155402451091504],
+              [266814.903420109010767, 21869.493286440101656]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43D",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [63124.903420109010767, 117410.993286440105294],
+              [63391.708420108712744, 117410.993286440105294],
+              [63391.708420108712744, 116467.65540245109878],
+              [63124.903420109010767, 116467.65540245109878],
+              [63124.903420109010767, 117410.993286440105294]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43E",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [64337.401601100020343, 119202.452375682492857],
+              [65960.697468516140361, 119202.452375682492857],
+              [65960.697468516140361, 119088.156153846299276],
+              [64337.401601100020343, 119088.156153846299276],
+              [64337.401601100020343, 119202.452375682492857]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "43F",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [64454.401601100027619, 115449.452375682492857],
+              [66077.697468516140361, 115449.452375682492857],
+              [66077.697468516140361, 115335.156153846299276],
+              [64454.401601100027619, 115335.156153846299276],
+              [64454.401601100027619, 115449.452375682492857]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "440",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [190726.40160109999124, 86796.452375682478305],
+              [192349.697468516096706, 86796.452375682478305],
+              [192349.697468516096706, 86682.15615384632838],
+              [190726.40160109999124, 86682.15615384632838],
+              [190726.40160109999124, 86796.452375682478305]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "441",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [204085.401188208488747, 79604.992400577233639],
+              [204352.206188208190724, 79604.992400577233639],
+              [204352.206188208190724, 78661.654516588227125],
+              [204085.401188208488747, 78661.654516588227125],
+              [204085.401188208488747, 79604.992400577233639]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "442",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [258875.902288732788293, 48358.450719379303337],
+              [260499.198156148893759, 48358.450719379303337],
+              [260499.198156148893759, 48244.154497543153411],
+              [258875.902288732788293, 48244.154497543153411],
+              [258875.902288732788293, 48358.450719379303337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "DEMODOOR",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "443",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [260972.402288732788293, 44333.450719379303337],
+              [262595.698156148777343, 44333.450719379303337],
+              [262595.698156148777343, 44219.154497543153411],
+              [260972.402288732788293, 44219.154497543153411],
+              [260972.402288732788293, 44333.450719379303337]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "KHUNHANHANHLY",
+        "PaperSpace": null,
+        "SubClasses": "AcDbEntity:AcDbPolyline",
+        "Linetype": null,
+        "EntityHandle": "444",
+        "Text": null
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [99994.715047895224416, 116273.855111117605702],
+              [189366.536007281712955, 116275.886079007599619],
+              [189366.536007281712955, 119215.344860151497414],
+              [229866.960980440111598, 119215.344860151395551],
+              [229866.960980439907871, 116275.714543591006077],
+              [269176.664865530328825, 116277.048568569502095],
+              [269176.664865530328825, 110600.878422651105211],
+              [266742.069240522105247, 110600.878422650799621],
+              [266808.770490440074354, 28942.220729037628189],
+              [178465.42437958449591, 28942.220729037628189],
+              [178465.42437958449591, 71538.850269009359181],
+              [161537.574807593395235, 71538.850269042392028],
+              [161537.574807593395235, 74150.345868269709172],
+              [77654.308510438029771, 74150.345868269359926],
+              [77654.308510438015219, 107230.652290881393128],
+              [100001.207042071604519, 107216.155450449601631],
+              [99994.715047895224416, 116273.855111117605702]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

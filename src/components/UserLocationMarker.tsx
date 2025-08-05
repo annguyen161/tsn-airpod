@@ -8,9 +8,8 @@ interface UserLocationMarkerProps {
   accuracy?: number;
 }
 
-// Create combined user location icon with accuracy circle
+// Create user location icon with accuracy circle
 const createUserLocationIcon = (accuracy: number) => {
-  // Calculate accuracy circle size
   const baseRadius = 35;
   const accuracyRadius = accuracy * 2;
   const radius = Math.max(accuracyRadius, baseRadius);
@@ -19,7 +18,6 @@ const createUserLocationIcon = (accuracy: number) => {
   return L.divIcon({
     className: "user-location-marker",
     html: `
-      <!-- Accuracy Circle -->
       <div style="
         width: ${circleSize}px;
         height: ${circleSize}px;
@@ -33,7 +31,6 @@ const createUserLocationIcon = (accuracy: number) => {
         z-index: 1;
       "></div>
       
-      <!-- User Marker -->
       <div style="
         width: 20px;
         height: 20px;
@@ -50,15 +47,9 @@ const createUserLocationIcon = (accuracy: number) => {
       ">
         <style>
           @keyframes pulse {
-            0% {
-              box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
-            }
-            70% {
-              box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
-            }
-            100% {
-              box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
-            }
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
           }
         </style>
       </div>

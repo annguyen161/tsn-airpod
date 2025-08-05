@@ -12,6 +12,7 @@ import {
   CircularProgress,
 } from "@mui/material";
 import { QrCodeScanner as QRIcon } from "@mui/icons-material";
+import { demoQRLocations } from "../contants";
 
 interface QRScannerProps {
   open: boolean;
@@ -23,36 +24,6 @@ interface QRScannerProps {
     id: string;
   }) => void;
 }
-
-// Demo QR codes with predefined locations in the airport
-const demoQRLocations: Record<
-  string,
-  { lat: number; lng: number; name: string; id: string }
-> = {
-  TSN_GATE_A1: { lat: 280, lng: 350, name: "Gate A1", id: "gate-a1" },
-  TSN_GATE_B2: { lat: 320, lng: 450, name: "Gate B2", id: "gate-b2" },
-  TSN_CHECKIN_1: {
-    lat: 250,
-    lng: 300,
-    name: "Check-in Counter 1",
-    id: "checkin-1",
-  },
-  TSN_TOILET_1: {
-    lat: 290,
-    lng: 380,
-    name: "Toilet - Terminal 1",
-    id: "toilet-1",
-  },
-  TSN_CAFE_1: { lat: 310, lng: 420, name: "Coffee Shop", id: "cafe-1" },
-  TSN_SECURITY: {
-    lat: 270,
-    lng: 360,
-    name: "Security Checkpoint",
-    id: "security-1",
-  },
-  TSN_BAGGAGE: { lat: 240, lng: 320, name: "Baggage Claim", id: "baggage-1" },
-  TSN_INFO: { lat: 300, lng: 400, name: "Information Desk", id: "info-1" },
-};
 
 const QRScanner: React.FC<QRScannerProps> = ({
   open,
@@ -81,14 +52,12 @@ const QRScanner: React.FC<QRScannerProps> = ({
 
       newScanner.render(
         (decodedText) => {
-          // Handle successful scan
           handleScanSuccess(decodedText);
           newScanner.clear();
           setScanner(null);
         },
         (error) => {
-          // Handle scan error (can be ignored for continuous scanning)
-          console.log("Scan error:", error);
+          // Scan errors can be ignored for continuous scanning
         }
       );
 
@@ -106,7 +75,6 @@ const QRScanner: React.FC<QRScannerProps> = ({
   const handleScanSuccess = (decodedText: string) => {
     setIsScanning(false);
 
-    // Check if it's a demo QR code
     const location = demoQRLocations[decodedText];
 
     if (location) {
@@ -167,7 +135,6 @@ const QRScanner: React.FC<QRScannerProps> = ({
 
         <div id="qr-reader" className="w-full mb-4"></div>
 
-        {/* Demo QR Codes Section */}
         <Box className="mt-4">
           <Typography variant="subtitle2" className="mb-2 font-semibold">
             Demo QR Codes (Chọn vị trí):
