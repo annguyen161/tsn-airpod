@@ -31,16 +31,6 @@ body {
   background: #f8fafc;
 }
 
-/* Custom map control styling */
-.map-controls {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-  max-width: 350px;
-}
-
-/* Custom zoom control styling */
 .zoom-controls {
   position: absolute;
   bottom: 80px;

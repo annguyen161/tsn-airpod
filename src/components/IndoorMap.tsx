@@ -2,12 +2,12 @@ import React, { useState, useRef, useEffect } from "react";
 import { MapContainer, GeoJSON } from "react-leaflet";
 import {
   Paper,
-  Box,
-  Typography,
   IconButton,
   Tooltip,
   Snackbar,
   Alert,
+  CircularProgress,
+  Box,
 } from "@mui/material";
 import {
   Add as ZoomInIcon,
@@ -19,7 +19,6 @@ import { FeatureCollection, Feature } from "geojson";
 import {
   transformCoordinates,
   MAP_CONFIG,
-  areaColors,
   getFeatureInfo,
   demoUserLocations,
 } from "../contants";
@@ -41,7 +40,9 @@ const IndoorMap: React.FC = () => {
   const [geoJsonData, setGeoJsonData] = useState<FeatureCollection | null>(
     null
   );
+  const [isLoadingMap, setIsLoadingMap] = useState(true);
   const mapRef = useRef<L.Map>(null);
+  const mapInitialized = useRef(false);
 
   // User location states
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
@@ -74,16 +75,20 @@ const IndoorMap: React.FC = () => {
         };
 
         setGeoJsonData(transformedData);
+        setIsLoadingMap(false);
       })
       .catch((error) => {
         console.error("Error loading map data:", error);
+        setIsLoadingMap(false);
       });
   }, []);
 
-  // Auto-detect user location on app startup
+  // Initialize user location after map is properly set up
   useEffect(() => {
+    if (!geoJsonData || mapInitialized.current) return;
+
     const initializeUserLocation = () => {
-      // Simulate GPS delay
+      // Wait for map bounds to be set first
       setTimeout(() => {
         const randomLocation =
           demoUserLocations[
@@ -97,18 +102,17 @@ const IndoorMap: React.FC = () => {
         };
 
         setUserLocation(newUserLocation);
+        mapInitialized.current = true;
 
-        // Center map on user location
-        if (mapRef.current) {
-          mapRef.current.setView([randomLocation.lat, randomLocation.lng], 3);
-        }
-      }, 2000);
+        // Don't auto-center to user location immediately
+        // Let user manually navigate if needed
+      }, 1500); // Increased delay to let bounds settle
     };
 
-    // Initialize location detection after a short delay to ensure map is ready
+    // Initialize location detection after map data is loaded
     const timer = setTimeout(initializeUserLocation, 500);
     return () => clearTimeout(timer);
-  }, []);
+  }, [geoJsonData]);
 
   // Handle zoom in
   const handleZoomIn = () => {
@@ -127,7 +131,10 @@ const IndoorMap: React.FC = () => {
   // Navigate to user location
   const handleGoToUserLocation = () => {
     if (userLocation && mapRef.current) {
-      mapRef.current.setView([userLocation.lat, userLocation.lng], 3);
+      mapRef.current.setView([userLocation.lat, userLocation.lng], 3, {
+        animate: true,
+        duration: 1.0,
+      });
       setLocationMessage(
         `Đã di chuyển đến vị trí của bạn: ${userLocation.name}`
       );
@@ -184,81 +191,25 @@ const IndoorMap: React.FC = () => {
     });
   };
 
+  // Show loading state while map data is being fetched
+  if (isLoadingMap) {
+    return (
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        height="100vh"
+        flexDirection="column"
+        gap={2}
+      >
+        <CircularProgress size={60} />
+        <p className="text-gray-600">Đang tải bản đồ...</p>
+      </Box>
+    );
+  }
+
   return (
     <div className="relative h-full w-full">
-      {/* Search Controls */}
-      <div className="map-controls">
-        <Paper
-          elevation={3}
-          className="p-4 bg-white/95 backdrop-blur-sm"
-          sx={{ borderRadius: 2 }}
-        >
-          <Box className="mb-3">
-            <Typography variant="h6" className="font-bold text-gray-800 mb-1">
-              Tân Sơn Nhất Airport
-            </Typography>
-            <Typography variant="body2" className="text-gray-600">
-              Indoor Navigation Map
-            </Typography>
-          </Box>
-
-          {/* Legend */}
-          <Box className="mt-3">
-            <Typography
-              variant="body2"
-              className="font-medium mb-2 text-gray-700"
-            >
-              Chú thích:
-            </Typography>
-            <div className="grid grid-cols-1 gap-1 text-xs">
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors.gate }}
-                />
-                <span>Cổng bay</span>
-              </div>
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors["check-in"] }}
-                />
-                <span>Check-in</span>
-              </div>
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors.restaurant }}
-                />
-                <span>Ăn uống</span>
-              </div>
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors["duty-free"] }}
-                />
-                <span>Mua sắm</span>
-              </div>
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors.toilet }}
-                />
-                <span>Tiện ích</span>
-              </div>
-              <div className="flex items-center">
-                <div
-                  className="w-3 h-3 rounded mr-2"
-                  style={{ backgroundColor: areaColors.lounge }}
-                />
-                <span>VIP</span>
-              </div>
-            </div>
-          </Box>
-        </Paper>
-      </div>
-
-      {/* Custom Zoom Controls */}
       <div className="zoom-controls">
         <Paper
           elevation={2}
@@ -297,7 +248,6 @@ const IndoorMap: React.FC = () => {
         </Paper>
       </div>
 
-      {/* Location Control */}
       <div className="location-control">
         <Paper
           elevation={2}
@@ -331,7 +281,6 @@ const IndoorMap: React.FC = () => {
         </Paper>
       </div>
 
-      {/* Map */}
       <MapContainer
         center={MAP_CONFIG.center as L.LatLngExpression}
         zoom={MAP_CONFIG.zoom}
@@ -342,6 +291,9 @@ const IndoorMap: React.FC = () => {
         crs={L.CRS.Simple}
         minZoom={MAP_CONFIG.minZoom}
         maxZoom={MAP_CONFIG.maxZoom}
+        whenReady={() => {
+          // Map is ready, components can now safely interact with it
+        }}
       >
         {geoJsonData && (
           <>
@@ -354,7 +306,6 @@ const IndoorMap: React.FC = () => {
           </>
         )}
 
-        {/* User Location Marker */}
         {userLocation && (
           <UserLocationMarker
             position={[userLocation.lat, userLocation.lng]}
@@ -364,7 +315,6 @@ const IndoorMap: React.FC = () => {
         )}
       </MapContainer>
 
-      {/* Location Notification */}
       <Snackbar
         open={showLocationAlert}
         autoHideDuration={4000}
