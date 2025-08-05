@@ -30,9 +30,9 @@ export const transformCoordinates = (
 export const MAP_CONFIG = {
   // Center around the middle of expected data bounds
   center: [110, 200] as [number, number], // Closer to actual data center
-  zoom: 1, // Start with higher zoom to avoid initial distortion
-  minZoom: 0,
+  zoom: 1, // Start with higher zoom for better initial view
+  minZoom: 1, // Prevent zooming out too far - no more empty space
   maxZoom: 5,
   fitBoundsPadding: [20, 20] as [number, number], // Reduced padding for better fit
-  fitBoundsMaxZoom: 4, // Lower max zoom for better overview
+  fitBoundsMaxZoom: 1, // Lower max zoom for better overview, but still detailed
 };

@@ -15,6 +15,15 @@ body {
   overflow: hidden;
 }
 
+/* Prevent any unwanted scrollbars or overflow */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 /* Leaflet popup customization */
 .leaflet-popup-content-wrapper {
   border-radius: 8px;
@@ -29,21 +38,27 @@ body {
 /* Map container */
 .leaflet-container {
   background: #f8fafc;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.zoom-controls {
-  position: absolute;
-  bottom: 80px;
-  right: 20px;
-  z-index: 1000;
+/* Search sidebar scrollbar styling */
+.search-sidebar::-webkit-scrollbar {
+  width: 6px;
 }
 
-/* Single location control styling */
-.location-control {
-  position: absolute;
-  bottom: 190px;
-  right: 20px;
-  z-index: 1000;
+.search-sidebar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.search-sidebar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.search-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
 
 /* User location marker */
@@ -62,4 +77,23 @@ body {
 
 #qr-reader video {
   border-radius: 6px;
+}
+
+/* Map controls positioning - ensure they don't interfere with sidebar */
+.map-controls {
+  position: fixed !important;
+  z-index: 999 !important;
+}
+
+/* Responsive adjustments for search sidebar */
+@media (max-width: 768px) {
+  .search-sidebar {
+    width: 280px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .search-sidebar {
+    width: 260px !important;
+  }
 }

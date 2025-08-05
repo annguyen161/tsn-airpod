@@ -25,6 +25,7 @@ import {
 
 import MapBounds from "./MapBounds";
 import UserLocationMarker from "./UserLocationMarker";
+import SearchSidebar from "./SearchSidebar";
 
 // User location interface
 interface UserLocation {
@@ -36,6 +37,16 @@ interface UserLocation {
   timestamp: number;
 }
 
+// Location item interface for search
+interface LocationItem {
+  id: string;
+  name: string;
+  type: string;
+  category: string;
+  layer: string;
+  color: string;
+}
+
 const IndoorMap: React.FC = () => {
   const [geoJsonData, setGeoJsonData] = useState<FeatureCollection | null>(
     null
@@ -43,11 +54,18 @@ const IndoorMap: React.FC = () => {
   const [isLoadingMap, setIsLoadingMap] = useState(true);
   const mapRef = useRef<L.Map>(null);
   const mapInitialized = useRef(false);
+  const geoJsonLayerRef = useRef<L.GeoJSON | null>(null);
 
   // User location states
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   const [locationMessage, setLocationMessage] = useState<string | null>(null);
   const [showLocationAlert, setShowLocationAlert] = useState(false);
+
+  // Search states
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [highlightedLocation, setHighlightedLocation] = useState<string | null>(
+    null
+  );
 
   // Load GeoJSON data
   useEffect(() => {
@@ -104,9 +122,20 @@ const IndoorMap: React.FC = () => {
         setUserLocation(newUserLocation);
         mapInitialized.current = true;
 
-        // Don't auto-center to user location immediately
-        // Let user manually navigate if needed
-      }, 1500); // Increased delay to let bounds settle
+        // Auto-zoom to user location when first loaded
+        if (mapRef.current) {
+          setTimeout(() => {
+            mapRef.current?.setView(
+              [randomLocation.lat, randomLocation.lng],
+              4,
+              {
+                animate: true,
+                duration: 2.0,
+              }
+            );
+          }, 100); // Additional delay to ensure MapBounds has finished
+        }
+      }, 1000); // Increased delay to let bounds settle
     };
 
     // Initialize location detection after map data is loaded
@@ -142,18 +171,116 @@ const IndoorMap: React.FC = () => {
     }
   };
 
+  // Handle location selection from search
+  const handleLocationSelect = (location: LocationItem) => {
+    if (!geoJsonData || !mapRef.current) return;
+
+    // Find the feature with matching layer
+    const feature = geoJsonData.features?.find(
+      (f: any) => f.properties?.Layer === location.layer
+    );
+
+    if (feature && feature.geometry) {
+      // Calculate center of the feature
+      const geometry = feature.geometry as any;
+      let center: [number, number] = [0, 0];
+
+      if (geometry.type === "Polygon") {
+        const coordinates = geometry.coordinates[0];
+        const centerX =
+          coordinates.reduce(
+            (sum: number, coord: number[]) => sum + coord[0],
+            0
+          ) / coordinates.length;
+        const centerY =
+          coordinates.reduce(
+            (sum: number, coord: number[]) => sum + coord[1],
+            0
+          ) / coordinates.length;
+        center = [centerY, centerX];
+      } else if (geometry.type === "Point") {
+        center = [geometry.coordinates[1], geometry.coordinates[0]];
+      }
+
+      // Set highlighted location
+      setHighlightedLocation(location.layer);
+
+      // Zoom to location
+      mapRef.current.setView(center, 4, {
+        animate: true,
+        duration: 1.5,
+      });
+
+      // Show location message
+      setLocationMessage(`Đã di chuyển đến: ${location.name}`);
+      setShowLocationAlert(true);
+
+      // Clear highlight after 3 seconds
+      setTimeout(() => {
+        setHighlightedLocation(null);
+      }, 3000);
+    }
+  };
+
   // Style function for GeoJSON features
   const geoJsonStyle = (feature?: Feature): L.PathOptions => {
     const layer = feature?.properties?.Layer || "default";
     const featureInfo = getFeatureInfo(layer);
+    const isHighlighted = highlightedLocation === layer;
+
+    // Check if this feature matches the selected category
+    const matchesCategory = selectedCategory
+      ? (() => {
+          const categories = [
+            {
+              id: "check-in",
+              types: ["check-in", "ticket", "information"],
+            },
+            {
+              id: "dining",
+              types: ["restaurant"],
+            },
+            {
+              id: "services",
+              types: ["service", "baggage"],
+            },
+            {
+              id: "facilities",
+              types: ["toilet", "waiting"],
+            },
+            {
+              id: "offices",
+              types: ["office"],
+            },
+            {
+              id: "emergency",
+              types: ["emergency"],
+            },
+            {
+              id: "technical",
+              types: ["technical", "utility", "storage"],
+            },
+          ];
+
+          const category = categories.find(
+            (cat) => cat.id === selectedCategory
+          );
+          return category ? category.types.includes(featureInfo.type) : false;
+        })()
+      : true;
+
+    // Adjust opacity based on category filter
+    const baseOpacity = featureInfo.type === "structure" ? 0.3 : 0.7;
+    const filteredOpacity =
+      selectedCategory && !matchesCategory ? 0.1 : baseOpacity;
 
     return {
       fillColor: featureInfo.color,
-      weight: 2,
-      opacity: 1,
-      color: "#ffffff",
+      weight: isHighlighted ? 4 : 2,
+      opacity: selectedCategory && !matchesCategory ? 0.3 : 1,
+      color: isHighlighted ? "#ff0000" : "#ffffff",
       dashArray: "",
-      fillOpacity: featureInfo.type === "structure" ? 0.3 : 0.7,
+      fillOpacity: isHighlighted ? 0.9 : filteredOpacity,
     };
   };
 
@@ -174,18 +301,19 @@ const IndoorMap: React.FC = () => {
         layer.bindPopup(popupContent).openPopup();
       },
       mouseover: (e: L.LeafletMouseEvent) => {
-        const layer = e.target;
-        layer.setStyle({
+        const targetLayer = e.target;
+        targetLayer.setStyle({
           weight: 3,
           fillOpacity: 0.9,
         });
       },
       mouseout: (e: L.LeafletMouseEvent) => {
-        const layer = e.target;
+        const targetLayer = e.target;
         const originalOpacity = featureInfo.type === "structure" ? 0.3 : 0.7;
-        layer.setStyle({
-          weight: 2,
-          fillOpacity: originalOpacity,
+        const isHighlighted = highlightedLocation === layerName;
+        targetLayer.setStyle({
+          weight: isHighlighted ? 4 : 2,
+          fillOpacity: isHighlighted ? 0.9 : originalOpacity,
         });
       },
     });
@@ -210,7 +338,17 @@ const IndoorMap: React.FC = () => {
 
   return (
     <div className="relative h-full w-full">
-      <div className="zoom-controls">
+      {/* Search Sidebar */}
+      <SearchSidebar
+        onLocationSelect={handleLocationSelect}
+        onCategoryFilter={setSelectedCategory}
+        selectedCategory={selectedCategory}
+      />
+
+      <div
+        className="zoom-controls"
+        style={{ right: 16, bottom: 160, position: "absolute", zIndex: 1000 }}
+      >
         <Paper
           elevation={2}
           className="bg-white/95 backdrop-blur-sm"
@@ -248,7 +386,10 @@ const IndoorMap: React.FC = () => {
         </Paper>
       </div>
 
-      <div className="location-control">
+      <div
+        className="location-control"
+        style={{ right: 16, bottom: 100, position: "absolute", zIndex: 1000 }}
+      >
         <Paper
           elevation={2}
           className="bg-white/95 backdrop-blur-sm"
@@ -302,6 +443,7 @@ const IndoorMap: React.FC = () => {
               data={geoJsonData}
               style={geoJsonStyle}
               onEachFeature={onEachFeature}
+              ref={geoJsonLayerRef}
             />
           </>
         )}
