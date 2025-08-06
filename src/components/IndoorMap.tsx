@@ -130,7 +130,7 @@ const IndoorMap: React.FC = () => {
               4,
               {
                 animate: true,
-                duration: 2.0,
+                duration: 1.0,
               }
             );
           }, 100); // Additional delay to ensure MapBounds has finished
@@ -162,7 +162,7 @@ const IndoorMap: React.FC = () => {
     if (userLocation && mapRef.current) {
       mapRef.current.setView([userLocation.lat, userLocation.lng], 3, {
         animate: true,
-        duration: 1.0,
+        duration: 0.6,
       });
       setLocationMessage(
         `Đã di chuyển đến vị trí của bạn: ${userLocation.name}`
@@ -222,7 +222,7 @@ const IndoorMap: React.FC = () => {
       // Zoom to location
       mapRef.current.setView(center, 4, {
         animate: true,
-        duration: 1.5,
+        duration: 0.8,
       });
 
       // Show location message
