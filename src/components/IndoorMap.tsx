@@ -200,6 +200,20 @@ const IndoorMap: React.FC = () => {
         center = [centerY, centerX];
       } else if (geometry.type === "Point") {
         center = [geometry.coordinates[1], geometry.coordinates[0]];
+      } else if (geometry.type === "MultiPolygon") {
+        // Handle MultiPolygon geometry type
+        const coordinates = geometry.coordinates[0][0];
+        const centerX =
+          coordinates.reduce(
+            (sum: number, coord: number[]) => sum + coord[0],
+            0
+          ) / coordinates.length;
+        const centerY =
+          coordinates.reduce(
+            (sum: number, coord: number[]) => sum + coord[1],
+            0
+          ) / coordinates.length;
+        center = [centerY, centerX];
       }
 
       // Set highlighted location
